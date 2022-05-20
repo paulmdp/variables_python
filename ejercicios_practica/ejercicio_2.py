@@ -27,9 +27,14 @@ numero_2 = int(input())
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
-
+operacion = numero_1 + numero_2
+print("El resultado de sumar", numero_1, "y", numero_2, "es", operacion)
 # Resta
-
+operacion = numero_1 - numero_2
+print("El resultado de Restar", numero_1, "y", numero_2, "es", operacion)
 # División
-
+operacion = numero_1 / numero_2
+print("El resultado de Dividir", numero_1, "y", numero_2, "es", operacion)
 # Multiplicación
+operacion = numero_1 * numero_2
+print("El resultado de Multiplicar", numero_1, "y", numero_2, "es", operacion)
